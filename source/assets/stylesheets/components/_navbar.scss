@@ -10,3 +10,32 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+nav {
+  background-color: $rich-black;
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  min-height: 5vh;
+  width: 100%;
+  color: $platinum;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  a {
+    color: $platinum;
+  }
+  a:hover {
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    color: $onix
+  }
+}
+
+#logo {
+  grid-column: 2/3;
+  font-size: 1.3em;
+  margin: 0;
+}
+.hamburguer {
+  justify-self: end;
+}

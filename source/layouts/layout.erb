@@ -2,25 +2,45 @@
 <html>
   <head>
     <!-- INSERT GOOGLE ANALYTICS HERE -->
-
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Portfolio</title>
     <!-- Comment this out when meta tags configured -->
     <%#= display_meta_tags %>
-    <%= favicon_tag 'favicon.ico' %>
+    <%#= favicon_tag 'favicon.ico' %>
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   </head>
-
+  <nav>
+    <h3 id="logo">
+      <a href="#home">Home</a> <span>|</span>
+      <a href="#skills">Skills</a> <span>|</span>
+      <a href="#projects">Projects</a>
+    </h3>
+  </nav>
+  <header id="home">
+    <section>
+      <div class="hero">
+        <img src="/assets/images/adriana.jpg" style="width: 400px" alt="">
+        <h1 class="headline">Hello!</h1>
+        <h3 class="bio">I'm Adriana,<br>
+          web developer based in Japan.</h3>
+      </div>
+    </section>
+  </header>
+  <div class="slider"></div>
   <body>
     <%= yield %>
     <%= javascript_include_tag "bundle" %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js" integrity="sha512-m/n857VfrPYUcRvzCfqfrC9aMT06TQA2V0DcX/Ovovrhswa3038FfYmHlB0l/ZMukVyKWmiwZI4Pnnd7v3FwFQ==" crossorigin="anonymous"></script>
   </body>
+  <footer>
+    <p>some footer</p>
+  </footer>
 </html>

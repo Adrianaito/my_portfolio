@@ -1,0 +1,33 @@
+h1 {
+  padding: 1.5em 0 0.4em 0;
+}
+.wrapper {
+  // height: 100vh;
+  width: 100%;
+  background-color: $platinum;
+  // margin-top: 4.5em;
+  z-index: -3;
+}
+.skills-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: $platinum;
+  // margin-top: 4.5em;
+  z-index: -3;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  border-bottom: 1px solid $onix;
+}
+.card-wrapper {
+  display: flex;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+.description {
+  padding: 1em 1em 1em 2em;
+}
