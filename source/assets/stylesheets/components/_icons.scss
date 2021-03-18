@@ -1,3 +1,8 @@
+.wrap-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .icons {
   position: flex;
   flex-direction: column;
@@ -10,7 +15,7 @@
   font-size: 2em;
   }
   a:hover {
-    ext-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
     color: $onix;
   }
   li {
@@ -20,7 +25,19 @@
 .padding-left {
   padding-left: 5px;
 }
-.lang-icon {
-  width: 100px;
+.card-icon {
+  width: 9em;
   height: 100px;
+  margin: 1em 1em 1em 0;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: $platinum;
+}
+.lang-icon {
+  width: 80%;
+  height: 80%;
 }
