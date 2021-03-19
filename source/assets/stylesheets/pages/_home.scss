@@ -4,3 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1,h2,h3,h4,h5,h6 {
+  color: $rich-black;
+  text-shadow: 0 1px 0 rgba(80, 78, 78, 0.4);
+}
+p {
+  color: $onix;
+}
