@@ -26,6 +26,12 @@ h1 {
   min-width: 32em;
   max-width: 32em;
   position: relative;
+  .body-text {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 .btn-wrapper {
   position: absolute;
