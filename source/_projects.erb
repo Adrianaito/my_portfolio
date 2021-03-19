@@ -25,8 +25,8 @@
         <h2> <%= product.name %> </h2>
         <p><span class="font-italic h6"><%= product.name %></span> <%= product.description %></p>
       </div>
-      <div class="d-flex justify-content-center w-100 btn-wrapper">
-        <div class="btn-product d-flex justify-content-around w-50">
+      <div class="d-flex justify-content-center btn-wrapper">
+        <div class="btn-product d-flex justify-content-around">
           <% link_to product.url, target: '_blank' do %>
             <span class="btn-url btn btn-outline-secondary badge-pill">view site</span>
           <% end %>

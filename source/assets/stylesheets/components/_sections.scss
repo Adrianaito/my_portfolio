@@ -34,8 +34,9 @@ h1 {
   }
 }
 .btn-wrapper {
-  position: absolute;
+  // position: absolute;
   bottom: 5%;
+  // width: 100%;
 }
 .git-icon {
   font-size: 2em;
@@ -80,5 +81,8 @@ h1 {
 .lang-icon {
   width: 80%;
   height: 80%;
+}
+.btn-product {
+  width: 50%;
 }
 

@@ -17,7 +17,7 @@ section {
   display: flex;
 }
 .hero img {
-  width: 100%;
+  width: 400px;
   height: 100%;
   object-fit: cover;
   border-radius: 5px 0 0 5px;
@@ -44,4 +44,61 @@ section {
 }
 .bio {
   color: $onix;
+}
+@media (max-width: 900px) {
+  .hero {
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 3em;
+  }
+  .hero img {
+    width: 100%;
+  }
+  section {
+    height: fit-content;
+  }
+  .arrow {
+    display: none;
+  }
+  header {
+    width: 100%;
+  }
+  .headline, .bio {
+    font-size: 1.5em;
+  }
+  .text-hero {
+    margin: 0;
+    padding: 1em;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row !important;
+    position: absolute;
+    bottom: 0;
+  }
+  .body-text {
+    p {
+      width: 50%;
+    }
+    height: auto;
+  }
+  .btn-wrapper {
+    width: 20em;
+    // position: unset;
+    span {
+      font-size: 1em;
+    }
+    .git-icon {
+      font-size: 1.5em;
+    }
+  }
+  .btn-product {
+    width: 35%;
+  }
+  .skills-wrapper {
+    height: fit-content !important;
+  }
+
 }
