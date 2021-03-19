@@ -1,4 +1,33 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Simple Portfolio
+  tag: simplePortfolio
+  path: "https://www.simpl-portfolio.com/"
+  description: is a dashboard app that unifies portfolios across services and visualize asset growth of the user in one page.
+  cover: "simple-portfolio/dashboard.png"
+  images:
+    - "simple-portfolio/bitflyer.png"
+    - "simple-portfolio/home.png"
+    - "simple-portfolio/news.png"
+    - "simple-portfolio/platforms.png"
+    - "simple-portfolio/purchase.png"
+    - "simple-portfolio/showpage.png"
+
+- name: Revflix
+  tag: revflix
+  path: "https://revflix.herokuapp.com/"
+  description: is a platform where you can add reviews for tv series.
+  cover: "revflix/home-rev.png"
+  images:
+    - "revflix/add-title.png"
+    - "revflix/review.png"
+    - "revflix/add-review.png"
+
+- name: Napbuddies
+  tag: napbuddies
+  path: "http://napbuddies.herokuapp.com/"
+  description: is a platform where you can host events or find one so you can take your perfect nap.
+  cover: "napbuddies/home-nap.png"
+  images:
+    - "napbuddies/search.png"
+    - "napbuddies/profile.png"
+    - "napbuddies/add-event.png"
+
