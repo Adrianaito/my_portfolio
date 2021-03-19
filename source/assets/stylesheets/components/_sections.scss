@@ -8,12 +8,6 @@ h1 {
   // margin-top: 4.5em;
   z-index: -3;
 }
-.skills-wrapper {
-  height: 80vh;
-  width: 100%;
-  background-color: $platinum;
-  z-index: -3;
-}
 .content {
   width: 80%;
   margin: 0 auto;
@@ -25,9 +19,58 @@ h1 {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 0.5em;
   border-radius: 5px;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 .description {
   padding: 1em 1em 1em 2em;
   min-width: 32em;
+  max-width: 32em;
+  position: relative;
 }
+.btn-wrapper {
+  position: absolute;
+  bottom: 5%;
+}
+.git-icon {
+  font-size: 2em;
+  &:hover {
+    background-color: $platinum;
+    color: $onix;
+  }
+}
+.btn-url {
+  font-size: 1.4em;
+}
+//skills section
+
+.skills-wrapper {
+  height: 70vh;
+  width: 100%;
+  background-color: $platinum;
+  z-index: -3;
+  .content {
+    border-bottom: none;
+  }
+}
+.wrap-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-icon {
+  width: 9em;
+  height: 100px;
+  margin: 1em 1em 1em 0;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: $platinum;
+}
+.lang-icon {
+  width: 80%;
+  height: 80%;
+}
+

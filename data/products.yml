@@ -1,7 +1,9 @@
 - name: Simple Portfolio
   tag: simplePortfolio
-  path: "https://www.simpl-portfolio.com/"
-  description: is a dashboard app that unifies portfolios across services and visualize asset growth of the user in one page.
+  url: "https://www.simpl-portfolio.com/"
+  code: "https://github.com/Adrianaito/simple_portfolio"
+  description: "is a dashboard app that unifies portfolios across services and visualize asset growth of the user in one page.
+  This app was build in a group of three as the final project of 9 weeks coding bootcamp."
   cover: "simple-portfolio/dashboard.png"
   images:
     - "simple-portfolio/bitflyer.png"
@@ -13,8 +15,10 @@
 
 - name: Revflix
   tag: revflix
-  path: "https://revflix.herokuapp.com/"
-  description: is a platform where you can add reviews for tv series.
+  url: "https://revflix.herokuapp.com/"
+  code: "https://github.com/Adrianaito/tv-series"
+  description: "is a platform where you can add reviews for tv series.
+  This was an individual project challenge build over the weekend."
   cover: "revflix/home-rev.png"
   images:
     - "revflix/add-title.png"
@@ -23,8 +27,10 @@
 
 - name: Napbuddies
   tag: napbuddies
-  path: "http://napbuddies.herokuapp.com/"
-  description: is a platform where you can host events or find one so you can take your perfect nap.
+  url: "http://napbuddies.herokuapp.com/"
+  code: "https://github.com/Adrianaito/napbuddies"
+  description: "is a platform where you can host events or find one so you can take your perfect nap.
+  One week group project."
   cover: "napbuddies/home-nap.png"
   images:
     - "napbuddies/search.png"
