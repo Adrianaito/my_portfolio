@@ -3,7 +3,7 @@ h1 {
 }
 .wrapper {
   // height: 100vh;
-  width: 100%;
+  // width: 100%;
   background-color: $platinum;
   // margin-top: 4.5em;
   z-index: -3;
@@ -22,8 +22,8 @@ h1 {
   margin-bottom: 3em;
 }
 .description {
-  padding: 1em 1em 1em 2em;
-  min-width: 32em;
+  // padding: 1em 1em 1em 2em;
+  // min-width: 32em;
   max-width: 32em;
   position: relative;
   .body-text {
@@ -90,6 +90,17 @@ h1 {
 @media (min-width: 901px) {
   footer {
     display: none;
+  }
+  .description {
+    padding: 1em 1em 1em 2em;
+  }
+}
+@media (max-width: 810px) {
+  .description {
+    padding-top: 1em;
+  }
+  .card-wrapper {
+    flex-direction: column;
   }
 }
 
