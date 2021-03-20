@@ -45,7 +45,10 @@ section {
 .bio {
   color: $onix;
 }
-@media (max-width: 900px) {
+
+// media ------------
+
+@media (max-width: 810px) {
   .hero {
     height: fit-content;
     width: fit-content;
@@ -71,12 +74,6 @@ section {
   .text-hero {
     margin: 0;
     padding: 1em;
-  }
-  .icons {
-    display: flex;
-    // flex-direction: row !important;
-    position: absolute;
-    bottom: 0;
   }
   .body-text {
     p {
