@@ -6,12 +6,12 @@
   This app was build in a group of three as the final project of 9 weeks coding bootcamp."
   cover: "simple-portfolio/dashboard.png"
   images:
-    - "simple-portfolio/bitflyer.png"
-    - "simple-portfolio/home.png"
-    - "simple-portfolio/news.png"
-    - "simple-portfolio/platforms.png"
-    - "simple-portfolio/purchase.png"
-    - "simple-portfolio/showpage.png"
+    - "simple-portfolio/bitflyer.webp"
+    - "simple-portfolio/home.webp"
+    - "simple-portfolio/news.webp"
+    - "simple-portfolio/platforms.webp"
+    - "simple-portfolio/purchase.webp"
+    - "simple-portfolio/showpage.webp"
 
 - name: Revflix
   tag: revflix
@@ -19,11 +19,11 @@
   code: "https://github.com/Adrianaito/tv-series"
   description: "is a platform where you can add reviews for tv series.
   This was an individual project challenge build over the weekend."
-  cover: "revflix/home-rev.png"
+  cover: "revflix/home-rev.webp"
   images:
-    - "revflix/add-title.png"
-    - "revflix/review.png"
-    - "revflix/add-review.png"
+    - "revflix/add-title.webp"
+    - "revflix/review.webp"
+    - "revflix/add-review.webp"
 
 - name: Napbuddies
   tag: napbuddies
@@ -31,9 +31,9 @@
   code: "https://github.com/Adrianaito/napbuddies"
   description: "is a platform where you can host events or find one so you can take your perfect nap.
   One week group project."
-  cover: "napbuddies/home-nap.png"
+  cover: "napbuddies/home-nap.webp"
   images:
-    - "napbuddies/search.png"
-    - "napbuddies/profile.png"
-    - "napbuddies/add-event.png"
+    - "napbuddies/search.webp"
+    - "napbuddies/profile.webp"
+    - "napbuddies/add-event.webp"
 
