@@ -21,3 +21,33 @@ tl.fromTo(hero, 1, {height: '0%'}, {height: '80%', ease: Power2.easeInOut})
 .from(bio, 2, {scale:0.5, autoAlpha:0, ease:Back.easeOut})
 .from(arrow, 2, {scale:0.5, autoAlpha:0, ease:Back.easeOut})
 
+const iconsNav = document.querySelectorAll("ul a");
+const projects = document.getElementById("projects");
+const projectsPosition = projects.offsetTop;
+const addActive = () => {
+  iconsNav.forEach(icon => {
+    console.log(icon)
+    icon.classList.add("active")
+  });
+};
+const removeActive = () => {
+  iconsNav.forEach(icon => {
+    console.log(icon)
+    icon.classList.remove("active")
+  });
+};
+const changeColor = (position) => {
+  // console.log(projectsPosition);
+  // console.log(projects);
+  if (position + 280 >= projectsPosition) {
+    addActive();
+  }else {
+    removeActive();
+  };
+};
+window.addEventListener('scroll', () => {
+  let windowPosition = window.pageYOffset;
+  changeColor(windowPosition);
+  // console.log(windowPosition);
+});
+
