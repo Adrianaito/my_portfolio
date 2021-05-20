@@ -37,3 +37,15 @@
     - "napbuddies/profile.webp"
     - "napbuddies/add-event.webp"
 
+- name: Typing-React-Game
+  tag: typing
+  url: "https://adrianaito.github.io/react-typing/"
+  code: "https://github.com/Adrianaito/react-typing"
+  description: "is a fun game built with React!
+  Check it out and find out how fast you can type!"
+  cover: "react-typing/typing-game.webp"
+  images:
+    - "react-typing/typing-game-start.webp"
+    - "react-typing/typing-game-finish.webp"
+
+
