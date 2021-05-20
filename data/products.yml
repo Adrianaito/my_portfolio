@@ -18,7 +18,7 @@
   url: "https://revflix.herokuapp.com/"
   code: "https://github.com/Adrianaito/tv-series"
   description: "is a platform where you can add reviews for tv series.
-  This was an individual project challenge build over the weekend."
+  This was an individual project challenge built over the weekend."
   cover: "revflix/home-rev.webp"
   images:
     - "revflix/add-title.webp"
