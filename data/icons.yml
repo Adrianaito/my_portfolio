@@ -1,0 +1,36 @@
+- name: HTML
+  img: "/assets/images/icons/html5.svg"
+
+- name: HTML
+  img: "/assets/images/icons/javascript.svg"
+
+- name: HTML
+  img: "/assets/images/icons/sass-1.svg"
+
+- name: HTML
+  img: "/assets/images/icons/react-2.svg"
+
+- name: HTML
+  img: "/assets/images/icons/bootstrap-4.svg"
+
+- name: HTML
+  img: "/assets/images/icons/rails.svg"
+
+- name: HTML
+  img: "/assets/images/icons/ruby.svg"
+
+- name: HTML
+  img: "/assets/images/icons/postgresql-icon.svg"
+
+- name: HTML
+  img: "/assets/images/icons/heroku-icon.svg"
+
+- name: HTML
+  img: "/assets/images/icons/figma-1.svg"
+
+- name: HTML
+  img: "/assets/images/icons/github.svg"
+
+- name: HTML
+  img: "/assets/images/icons/git-icon.svg"
+
